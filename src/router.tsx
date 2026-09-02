@@ -9,11 +9,11 @@ const router = createBrowserRouter([
 	},
 	{
 		path: "/image-a",
-		element: <ImageView src="/image-a.jpg" />,
+		element: <ImageView src="/image-a.jpeg" />,
 	},
 	{
 		path: "/image-b",
-		element: <ImageView src="/image-b.jpg" />,
+		element: <ImageView src="/image-b.jpeg" />,
 	},
 ]);
 

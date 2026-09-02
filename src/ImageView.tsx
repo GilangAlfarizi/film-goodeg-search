@@ -11,7 +11,7 @@ function ImageView({ src }: ImageViewProps) {
 				draggable={false}
 				loading="eager"
 				decoding="sync"
-				className="block h-full w-full object-contain object-center select-none"
+				className="block h-auto w-full object-contain object-center select-none"
 			/>
 		</main>
 	);
